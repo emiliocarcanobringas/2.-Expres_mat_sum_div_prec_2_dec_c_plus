@@ -1,1 +1,1 @@
-# 2.-Expresi-n_matematica_suma_division_precision_2_decimales_c_plus
+/*Este programa solicita datos al usuario y muestra en la salida estándar el resultado de la espresión matemática: (a+b)/(c+d)* con una precisión de 2 decimales*/
