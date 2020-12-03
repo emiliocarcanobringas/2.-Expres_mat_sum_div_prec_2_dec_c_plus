@@ -1,14 +1,14 @@
-/*Este programa solicita datos al usuario y muestra en la salida estándar
-el resultado de la espresión matemática: (a+b)/(c+d)* con una precisión
+/*Este programa solicita datos al usuario y muestra en la salida estÃ¡ndar
+el resultado de la espresiÃ³n matemÃ¡tica: (a+b)/(c+d)* con una precisiÃ³n
 de 2 decimales*/
 
-# include <iostream> //Librería estándar de entrada y salida de datos
-# include <locale.h> //Librería estándar de localización (regionalización)
+# include <iostream> //LibrerÃ­a estÃ¡ndar de entrada y salida de datos
+# include <locale.h> //LibrerÃ­a estÃ¡ndar de localizaciÃ³n (regionalizaciÃ³n)
 
 using namespace std; //Acceso al espacio de nombres
 
 main (){ //Inicio del programa
-	setlocale(LC_CTYPE, "Spanish"); //Llamamos a la librería y le asignamos el valor: "español"
+	setlocale(LC_CTYPE, "Spanish"); //Llamamos a la librerÃ­a y le asignamos el valor: "espaÃ±ol"
 	float a,b,c,d, operacion = 0; //Declaramos las variables
 	cout<<"Ingrese el valor de a"<<endl; //Solicitamos el valor de la variable "a"
 	cin>>a; //Almacenamos el valor de la variable "a"
@@ -18,11 +18,11 @@ main (){ //Inicio del programa
 	cin>>c; //Almacenamos el valor de la variable "c"
 	cout<<"Ingrese el valor de d"<<endl; //Solicitamos el valor de la variable "d"
 	cin>>d; //Almacenamos el valor de la variable "d"
-operacion = (a+b)/(c+d); //Realizamos la operación
-cout.precision(2); //Le damos a la salida de la operación una precisión de 2 decimales
-	cout<<"El resultado de la operación (a+b)/(c+d) es: "<<endl;
+operacion = (a+b)/(c+d); //Realizamos la operaciÃ³n
+cout.precision(2); //Le damos a la salida de la operaciÃ³n una precisiÃ³n de 2 decimales
+	cout<<"El resultado de la operaciÃ³n (a+b)/(c+d) es: "<<endl;
 	cout<<operacion<<endl;
 	return 0; //Fin del programa
 }
 
-/*Este programa fue escrito por Emilio Carcaño Bringas*/
+/*Este programa fue escrito por Emilio CarcaÃ±o Bringas*/
